@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO 與網頁標題設定 -->
+    <title>逢甲大學影展專題：無痕野餐，無酒也歡</title>
+    <meta name="description" content="逢甲大學大三影展專題介紹網站，推廣無痕野餐、不製造垃圾與無酒精質感戶外生活。">
+    
+    <!-- 引入切割好的 CSS 檔案 -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <!-- 1. 頂部導覽列 (Navbar) -->
+    <header>
+        <div class="navbar">
+            <h1>無痕野餐，無酒也歡</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="#concept">企劃理念</a></li>
+                <li><a href="#video">影音介紹</a></li>
+                <li><a href="#info">參訪資訊</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- 主體網格容器 (Grid System) -->
+    <div class="main-container">
+        
+        <!-- 2. 側邊欄 (Sidebar) -->
+        <aside>
+            <h3>導覽目錄</h3>
+            <ul>
+                <li><a href="#intro">專題介紹</a></li>
+                <li><a href="#concept">設計理念</a></li>
+                <li><a href="#audience">目標客群</a></li>
+                <li><a href="#features">網站內容</a></li>
+            </ul>
+        </aside>
+
+        <!-- 3. 主要內容區 (Main Content) -->
+        <main>
+            <section id="intro" class="content-card">
+                <h2>專題介紹</h2>
+                <p>本專題以「無痕野餐，無酒也歡」為核心主題，透過網頁與影像記錄，帶領大家探索如何在戶外聚會與放鬆的同時，落實永續環保的生活方式[cite: 2]。我們提倡不製造垃圾、自備環保餐具與環保杯，享受健康且無負擔的質感戶外時光。</p>
+            </section>
+
+            <section id="concept" class="content-card">
+                <h2>網站設計理念</h2>
+                <p>視覺設計上採用清新自然的色調（如大地綠與暖木色），搭配簡潔的排版與實地拍攝照片，營造舒適、沉浸式的閱讀體驗，傳遞自然與環保的平衡美學。</p>
+            </section>
+
+            <section id="audience" class="content-card">
+                <h2>目標客群</h2>
+                <p>喜愛戶外活動、熱愛親近大自然的青年學生與社會大眾，以及關注永續減塑與質感生活方式的族群。</p>
+            </section>
+
+            <section id="features" class="content-card">
+                <h2>網站功能與內容</h2>
+                <p>本網站具備 RWD 響應式設計，無論使用桌機、平板或手機瀏覽皆能流暢呈現，並包含完整的專題理念介紹、影像紀錄與活動資訊。</p>
+            </section>
+        </main>
+
+    </div>
+
+</body>
+</html>

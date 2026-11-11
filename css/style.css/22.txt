@@ -1,0 +1,27 @@
+/* 全域變數與基本設定 */
+:root {
+    --primary-color: #4A6B5B;     /* 大地綠 */
+    --secondary-color: #D4A373;   /* 暖木色 */
+    --bg-color: #F9F8F6;          /* 米白色底 */
+    --text-color: #333333;        /* 深灰字體 */
+    --white: #FFFFFF;
+    --sidebar-width: 260px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

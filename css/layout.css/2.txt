@@ -1,0 +1,88 @@
+/* 頂部導覽列 Navbar */
+header {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.nav-links a:hover {
+    color: var(--secondary-color);
+}
+
+/* 主體網格版面 (Grid System) */
+.main-container {
+    display: grid;
+    grid-template-columns: var(--sidebar-width) 1fr;
+    margin-top: 60px; /* 避開固定導覽列 */
+    min-height: calc(100vh - 60px);
+}
+
+/* 側邊欄 Sidebar */
+aside {
+    background-color: var(--white);
+    border-right: 1px solid #E0E0E0;
+    padding: 2rem 1.5rem;
+}
+
+aside h3 {
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+    font-size: 1.1rem;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside ul li {
+    margin-bottom: 0.8rem;
+}
+
+aside ul li a {
+    display: block;
+    padding: 0.5rem 0.8rem;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+aside ul li a:hover {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+}
+
+/* 主要內容區 Main Content */
+main {
+    padding: 2.5rem;
+    background-color: var(--bg-color);
+}
+
+.content-card {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    margin-bottom: 2rem;
+}
+
+.content-card h2 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}

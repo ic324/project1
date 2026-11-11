@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="無痕野餐，無酒也歡 - 永續與零廢棄的核心理念介紹。">
+    <title>永續理念 | 無痕野餐，無酒也歡</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">🌱 無痕野餐，無酒也歡</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="concept.html" class="active">永續理念</a></li>
+                <li><a href="production.html">影展作品</a></li>
+                <li><a href="contact.html">聯絡我們</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-container">
+        <aside class="sidebar">
+            <h3>🌿 理念選單</h3>
+            <ul>
+                <li><a href="#zero-waste">零廢棄行動</a></li>
+                <li><a href="#mocktail">無酒精文化</a></li>
+            </ul>
+        </aside>
+
+        <main class="content">
+            <h1>永續理念：對地球好，對身心更好</h1>
+            <section id="zero-waste">
+                <h2>1. 無痕野餐（Leave No Trace）</h2>
+                <p>我們倡導在野餐活動結束後，現場不留下任何垃圾與一次性塑膠製品。透過自行攜帶便當盒、布巾與環保杯，落實真正親近自然的低碳生活。</p>
+            </section>
+            <section id="mocktail" style="margin-top: 1.5rem;">
+                <h2>2. 無酒也歡（Alcohol-Free Joy）</h2>
+                <p>聚會的本質是情感的交流而非酒精的催化。使用果汁、氣泡水與香草調製的 Mocktail（無酒精特調），讓所有人都能安全、清醒地享受純粹的快樂。</p>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 逢甲大學行銷學系 影展專題小組</p>
+    </footer>
+</body>
+</html>

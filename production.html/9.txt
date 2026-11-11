@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="影展專題作品介紹與拍攝花絮紀錄。">
+    <title>影展作品 | 無痕野餐，無酒也歡</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">🌱 無痕野餐，無酒也歡</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="concept.html">永續理念</a></li>
+                <li><a href="production.html" class="active">影展作品</a></li>
+                <li><a href="contact.html">聯絡我們</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-container">
+        <aside class="sidebar">
+            <h3>🎬 作品目錄</h3>
+            <ul>
+                <li><a href="#synopsis">影片梗概</a></li>
+                <li><a href="#behind-scenes">拍攝花絮</a></li>
+            </ul>
+        </aside>
+
+        <main class="content">
+            <h1>影展專題作品</h1>
+            <section id="synopsis">
+                <h2>短片劇情摘要</h2>
+                <p>本影片記錄了一群年輕人在週末籌備一場「無痕野餐」的過程。從挑選在地食材、調製無酒精水果特調，到歡聚一堂後的清理復原，用溫馨真實的鏡頭呈現永續生活的感染力。</p>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 逢甲大學行銷學系 影展專題小組</p>
+    </footer>
+</body>
+</html>

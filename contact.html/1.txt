@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="聯絡影展專題小組或提供意見回饋。">
+    <title>聯絡我們 | 無痕野餐，無酒也歡</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">🌱 無痕野餐，無酒也歡</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="concept.html">永續理念</a></li>
+                <li><a href="production.html">影展作品</a></li>
+                <li><a href="contact.html" class="active">聯絡我們</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-container">
+        <aside class="sidebar">
+            <h3>✉️ 聯絡資訊</h3>
+            <ul>
+                <li><a href="#form">線上回饋</a></li>
+            </ul>
+        </aside>
+
+        <main class="content">
+            <h1>與我們聯絡</h1>
+            <section id="form">
+                <p>對我們的永續野餐提案有興趣嗎？歡迎填寫下方表單交流討論！</p>
+                <form style="margin-top: 1rem; display: flex; flex-direction: column; gap: 1rem; max-width: 400px;">
+                    <label>姓名：<input type="text" style="width: 100%; padding: 8px;" placeholder="請輸入姓名"></label>
+                    <label>信箱：<input type="email" style="width: 100%; padding: 8px;" placeholder="請輸入 Email"></label>
+                    <label>訊息：<textarea style="width: 100%; padding: 8px; height: 100px;" placeholder="寫下您的想法..."></textarea></label>
+                    <button type="button" style="padding: 10px; background: #2e7d32; color: white; border: none; cursor: pointer;">送出訊息</button>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 逢甲大學行銷學系 影展專題小組</p>
+    </footer>
+</body>
+</html>
